@@ -1,0 +1,120 @@
+body {
+  margin:0;
+}
+
+
+.top{
+  position: relative;
+}
+#pic{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+.skywalkerText{
+  position: absolute;
+  bottom: 38px;
+  left:400px;
+}
+
+.skywalkerText #hi{
+  font-size: 40px;
+  margin:0;
+}
+.skywalkerText #anakin{
+  font-size: 70px;
+  margin:0;
+}
+#abrilFatface{  /*fejlec, idezet*/
+  font-family: 'Abril Fatface', cursive;
+}
+#josefinSans{  /*bekezdesek*/
+  font-family: 'Josefin Sans', sans-serif;
+}
+#merriweather{  /*feliratok*/
+  font-family: 'Merriweather', serif;
+}
+
+.firstP{
+  font-size: 18px;
+  
+}
+
+.middlePart{
+  padding-top: 30px;
+  padding-bot: 30px;
+  margin-left:auto;
+  margin-right:auto;
+  line-height: 1.5;
+  max-width: 800px;
+}
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.firstUL{
+  list-style-type: square;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.firstQuote{
+  background: #444444;
+  color: white;
+  font-size: 48px;
+  text-align:center;
+  padding: 40px;
+  position: relative;
+}
+.firstQuote #qMark, .secondQuote #qMark{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 1.3em;
+}
+.secondQuote{
+  background: #444444;
+  color: white;
+  font-size: 48px;
+  text-align:left;
+  padding: 40px;
+  position: relative;
+}
+
+
+.uppercaseTitle{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:27px;
+  padding-top:40px;
+  padding-bottom:10px;
+}
+.basicTitle{
+  font-weight: bold;
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+
+.contentText{
+  font-size: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.littleTitle{
+ margin:0;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+}
+ul {
+  list-style-type: square;
+  margin-left: 50px;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+hr{
+  border: 2px solid black;
+}
